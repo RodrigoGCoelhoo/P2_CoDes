@@ -14,34 +14,50 @@
 </head>
 <body>
     <header>
-        <img class="seta_esquerda" src="img/seta_esquerda.png">
+        <a href="tela_time.html">
+            <img class="voltar" src="../img/voltar.png">
+        </a>
         <h1>NOVO TIME</h1>
-        <div></div>
     </header>
     <main>
         <div class="box_cadastro">
             <h2>NOME</h2>
-            <input type="text" id="name_box" name="name_box" placeholder="Digite seu nome">
+            <div class="espaco"> space</div>
+            <input type="text" id="name_box" name="name_box" placeholder="Digite o nome ">
         </div>
 
         <div class="box_cadastro">
             <h2> ENDEREÇO </h2>
-            <div> Rua <input type="text" id="street_box" name="street_box" placeholder="Digite o nome da rua"></div> 
-            <div> Número <input type="text" id="num_box" name="num_box" placeholder="Digite o número da rua"></div> 
-            <div> Bairro <input type="text" id="neighbor_box" name="neighborhood_box" placeholder="Digite seu bairro"></div> 
+            <div class="espaco"> space</div>
+            <div class="box_cadastro_dentro">
+                <h2>Rua</h2> 
+                <input type="text" placeholder="Digite o nome da rua">
+            </div>
+            <div class="espaco"> space</div>
+            <div class="box_cadastro_dentro">
+                <h2>Número</h2> 
+                <input type="text" placeholder="Digite o número da rua">
+            </div>
+            <div class="espaco"> space</div>
+            <div class="box_cadastro_dentro">
+                <h2>Rua</h2> 
+                <input type="text" placeholder="Digite o bairro">
+            </div>
         </div>
 
         <div class="box_cadastro">
             <h2> CONVIDAR AMIGOS </h2>
-            <img src="botão_mais.png">
+            <div class="espaco"> space</div>
+            <img class="plus_sign" src="../img/plus_sign.png">
         </div>
     </main>
 
     <div class="botao_finalizar">
-        <a href="">
+        <a href="tela_mensagem.html">
             CRIAR
         </a>
     </div>
+        
 
 </body>
 </html>
