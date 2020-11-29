@@ -8,6 +8,7 @@ body {
     height: 100%;
     display:flex;
     flex-direction: column;
+    background-color: #1B66FF;
 }
 
 header{
@@ -53,6 +54,15 @@ main{
 }
 
 .botao_login{
+    height: 7%;
+    width: 50%;
+    margin-top: 7%;
+    border: 0px solid black;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.botao_cadastrar{
     height: 7%;
     width: 50%;
     margin-top: 7%;
@@ -140,6 +150,7 @@ main{
     align-self: center;
     justify-self: center;
     width: min-content;
+    white-space: nowrap;
 }
 
 .box_complementares{
@@ -149,11 +160,11 @@ main{
     align-items: center;
     width: 80%;
     height: 15%;
-    border: 1px solid black;
+    border: 0px solid black;
     border-radius: 10px;
     margin-top: 30px;
     padding: 15px;
-    background-color: white;
+    background-color: #6699FF;
     font-size: x-large;
     font-weight: bolder;
     color: black;
@@ -162,5 +173,90 @@ main{
 
 .ir{
     height: 30px;
-    
+}
+
+.check1{
+    display: none;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.check2{
+    display: none;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.check3{
+    display: none;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.finalizar{
+    position: relative;
+    height: 7%;
+    width: 50%;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    border: 0px solid black;
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+.bloco{
+    width: 80%;
+    min-height: 80px;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #6699FF;
+    border-radius: 5px;
+}
+
+.interesses{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.mais{
+    border: 1px solid black;
+    border-radius: 100%;
+    font-size: large;
+    margin-top: 20px;
+}
+
+.adicionar_interesse{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.adicionar_interesse > input{
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+.itens{
+    margin: 10px;
+}
+
+.itens > li{
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+.bloco1{
+    width: 80%;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #6699FF;
+    border-radius: 5px;
 }

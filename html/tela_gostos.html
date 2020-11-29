@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Gostos</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="../js/tela_gostos.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/rodrigo.css">
+</head>
+<body>
+    <header class="header_info">
+        <a href="./tela_infos_complementares.html">
+            <img class="voltar" src="../img/voltar.png" alt="Voltar">
+        </a>
+        <h2 class="titulo_header">MEUS GOSTOS</h2>
+    </header>
+    <main class="interesses">
+        <div class="bloco1">
+            <p>Conte-nos sobre seus gostos pessoais... rock? Jazz? Gosta de um filme clássico? Quanto mais opções, melhor! </p>
+        </div>
+
+        <div class="bloco">
+            <p>Que tipos de comida que você gosta?</p>
+            <div class="adicionar_interesse">
+                <input type="text" placeholder="Ex.: Japonesa">
+                <button class="mais"><h2>+</h2></button>
+            </div>
+                <ul class='itens'></ul>
+            </div>
+        </div>
+
+        <div class="bloco">
+            <p>Que gêneros musicais você ouve?</p>
+            <div class="adicionar_interesse">
+                <input type="text" placeholder="Ex.: Rock">
+                <button class="mais"><h2>+</h2></button>
+            </div>
+                <ul class='itens'></ul>
+            </div>
+        </div>
+
+        <div class="bloco">
+            <p>Que gêneros de filme você assite?</p>
+            <div class="adicionar_interesse">
+                <input type="text" placeholder="Ex.: Romance">
+                <button class="mais"><h2>+</h2></button>
+            </div>
+                <ul class='itens'></ul>
+            </div>
+        </div>
+        <button onclick="window.location.href='./tela_infos_complementares.html'" class="finalizar">
+            <h2>Finalizar</h2>
+        </button>
+    </main>
+</body>
+</html>
