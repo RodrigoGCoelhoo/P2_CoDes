@@ -31,9 +31,53 @@ main{
     align-items: center;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.voltar{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    height: 5%;
+}
+
+.ir{
+    height: 30px;
+}
+
 .novo_evento{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     background-color: #1B66FF;
+}
+
+.box_evento{
+    width: 80%;
+    min-height: 80px;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #6699FF;
+    border-radius: 5px;
+}
+
+.botao_avancar{
+    border: 1px solid black;
+    border-radius: 100%;
+    font-size: large;
+    margin-top: 20px;
+}
+
+
+.info_evento{
+    display: flex;
+    flex-direction: row;
+}
+
+.info_evento > input{
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-top: 20px;
 }
