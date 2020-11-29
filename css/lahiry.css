@@ -31,3 +31,9 @@ main{
     align-items: center;
 }
 
+.novo_evento{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #1B66FF;
+}
