@@ -23,27 +23,40 @@
     </header>
 
     <main class="novo_evento">
-        <div class="box_eventos">
-            <h2>Categoria</h2>
-            <h2>Jogo de Tênis</h2>
+        <div class="box_evento">
+            <p>Local</p>
+            <div class="info_evento">
+                <input type="text" value="Jogo de Tênis">
+            </div>
         </div>
-        <a class="box_eventos" href="tela_local_evento.html">
-            <h2>Local</h2>
-            <h2>Sugestão: Play Tennis</h2>
-            <img class="ir" src="../img/ir.png" alt="Ir">
-        </a>
-        <a class="box_eventos" href="tela_horario_evento.html">
-            <h2>Horário</h2>
-            <h2>Sugestão: Sábado 19/12 - 10h</h2>
-            <img class="ir" src="../img/ir.png" alt="Ir">
-        </a>
-        <a class="box_eventos" href="tela_convidados.html">
-            <h2>Convidados</h2>
-            <h2>Escolher</h2>
-            <img class="ir" src="../img/ir.png" alt="Ir">
-        </a>
-        <button onclick="window.location.href='tela_infos_evento.html'" class="confirmar">
-            <h2>confirmar</h2>
+
+        <div class="box_evento">
+            <p>Horário</p>
+            <div class="info_evento">
+                <input type="text" value="Sugestão: Play Tennis">
+                <button class="botao_avancar" onclick="window.location.href='tela_local_evento.html'"><h2>></h2></button>
+            </div>
+        </div>
+
+        <div class="box_evento">
+            <p>Local</p>
+            <div class="info_evento">
+                <input type="text" value="Sugestão: 19/12 - 10h00">
+                <button class="botao_avancar" onclick="window.location.href='tela_horario_evento.html'"><h2>></h2></button>
+            </div>
+        </div>
+
+        <div class="box_evento">
+            <p>Convidados</p>
+            <div class="info_evento">
+                <input type="text" value="Escolher">
+                <button class="botao_avancar" onclick="window.location.href='tela_convidados.html'"><h2>></h2></button>
+            </div>
+        </div>
+
+        <button class="botao_confirmar" onclick="window.location.href='tela_infos_evento.html'" class="confirmar">
+            <h2>Confirmar</h2>
         </button>
+
     </main>
 </body>
