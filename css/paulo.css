@@ -19,7 +19,7 @@ header{
     padding: 1.5rem;
     border-bottom: .1rem solid black;
     background-color: #003399;
-    font-size: large;
+    font-size: larger;
     font-weight: bolder;
 }
 
@@ -36,6 +36,11 @@ main{
     top: 20px;
     left: 15px;
     height: 5%;
+}
+
+.ir{
+    height: 30px;
+
 }
 
 .box{
