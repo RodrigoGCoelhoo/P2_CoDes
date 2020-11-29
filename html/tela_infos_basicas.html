@@ -20,47 +20,53 @@
         <h2>INFORMAÇÕES BÁSICAS</h2>
     </header>
     <main class="infos_basicas">
-        <div class="box">
-            <h2>Nome</h2>
-            <input type="text">
+        <div class="big_box">
+            <div class="box">
+                <h2>Email</h2>
+                <input type="text">
+            </div>
+            <div class="box">
+                <h2>Senha</h2>
+                <input type="password">
+            </div>
         </div>
-        <div class="box">
-            <h2>Sobrenome</h2>
-            <input type="text">
+        <div class="big_box">
+            <div class="box">
+                <h2>Nome</h2>
+                <input type="text">
+            </div>
+            <div class="box">
+                <h2>Sobrenome</h2>
+                <input type="text">
+            </div>
+            <div class="box">
+                <h2>Data de nascimento</h2>
+                <input type="date">
+            </div>
+            <div class="box">
+                <h2>Gênero</h2>
+                <select name="cars" id="cars">
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="agenero">Outro</option>
+                    <option value="genero_fluido">Prefiro não escolher</option>
+                </select>
+            </div>
         </div>
-        <div class="box">
-            <h2>Email</h2>
-            <input type="text">
-        </div>
-        <div class="box">
-            <h2>Senha</h2>
-            <input type="password">
-        </div>
-        <div class="box">
-            <h2>Data de nascimento</h2>
-            <input type="date">
-        </div>
-        <div class="box">
-            <h2>Gênero</h2>
-            <select name="cars" id="cars">
-                <option value="" disabled selected>Selecione uma opção</option>
-                <option value="feminino">Feminino</option>
-                <option value="masculino">Masculino</option>
-                <option value="agenero">Outro</option>
-                <option value="genero_fluido">Prefiro não escolher</option>
-            </select>
-        </div>
-        <div class="box">
-            <h2>Endereço</h2>
-            <input type="text" placeholder="Rua">
-            <input type="text" placeholder="Número">
-            <input type="text" placeholder="Complemento">
-            <input type="text" placeholder="CEP">
-            <input type="text" placeholder="Cidade">
-            <input type="text" placeholder="Estado">
+        <div class="big_box">
+            <div class="box">
+                <h2>Endereço</h2>
+                <input type="text" placeholder="Rua">
+                <input type="text" placeholder="Número">
+                <input type="text" placeholder="Complemento">
+                <input type="text" placeholder="CEP">
+                <input type="text" placeholder="Cidade">
+                <input type="text" placeholder="Estado">
+            </div>
         </div>
         <button onclick="window.location.href='./tela_infos_complementares.html'" class="proximo">
-            <h2>Próximo</h2>
+            Próximo
         </button>
     </main>
 </body>

@@ -52,7 +52,7 @@ main{
     background-color: #6699FF;
     width: 80%;
     padding: 2.5rem 0;
-    margin: 0rem auto;
+    margin: 10px; 
     border-radius: 1rem;
     font-size: x-large;
     font-weight: bolder;
@@ -64,30 +64,35 @@ main{
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    padding: 1.3rem;
+    padding: 1.5rem ;
     border: 1rem;
     background-color: #6699FF;
-    width: 80%;
-    margin: 1rem auto;
+    width: 70%;
     border-radius: 1rem;
     font-weight: bolder;
 }
 
-.box_cadastro_dentro {
+.box_sugestao{
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6699FF;
+    width: 80%;
+    padding: 2.5rem 0;
+    margin: 10px; 
+    border-radius: 1rem;
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    text-align: center;
 }
 
-.box_cadastro_dentro > input, select{
-    height: 30px;
-    border: 0.5px solid black;
-    border-radius: 5px;
-    background-color: white;
-}
 
-.box_cadastro > input, select{
+.box_cadastro > input{
     height: 30px;
+    margin-top: 10px;
     border: 0.5px solid black;
     border-radius: 5px;
     background-color: white;
@@ -104,6 +109,8 @@ main{
     border-radius: 1rem;
     font-size: large;
     font-weight: bolder;
+    text-decoration: none;
+    color: black
 }
 
 .lock_screen{
@@ -135,6 +142,7 @@ main{
     background-color: ivory;
     width: 10rem;
     height: 10rem;
+    padding: 10px;
     border-radius: 10%;
 
 }
@@ -152,26 +160,6 @@ main{
     align-self: center;
 }
 
-.box_sim_ou_nao{
-    font-size: 150%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 3rem;
-    border: 1rem;
-    background-color: #6699FF;
-    width: 70%;
-    margin: 0.5rem auto;
-    border-radius: 1rem;
-    font-weight: bolder;
-}
-
-.sim_ou_nao{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
 .sugestão{
     display: flex;
     flex-direction: column;
@@ -180,9 +168,38 @@ main{
     font-weight: bolder;
 }
 
+.box_sim_ou_nao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    height: 50%;
+    padding: 1rem;
+    background-color: #6699FF;
+    border-radius: 10px;
+    border: 0px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.sim_ou_nao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.botao_sim, .botao_nao{
+    border-radius: 10px;
+    padding: 1rem 1rem;
+    font-weight: bolder;
+    font-size: large;
+    border: 0;
+}
 
 
-.espaco{
-    color:#6699FF;
+.box_sim_ou_nao > *{
+    margin: 10px;
 }
 
