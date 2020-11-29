@@ -13,14 +13,15 @@ body {
 
 header{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1.5rem;
-    border-bottom: .1rem solid black;
+    border-bottom: .1rem solid #003399;
     background-color: #003399;
     font-size: larger;
     font-weight: bolder;
+    color: white;
 }
 
 main{
@@ -55,21 +56,15 @@ a{
 }
 
 .box_evento{
+    align-items: cente;
     width: 80%;
     min-height: 80px;
     padding: 1rem;
     margin-top: 1rem;
+    font-weight: bolder;
     background-color: #6699FF;
     border-radius: 5px;
 }
-
-.botao_avancar{
-    border: 1px solid black;
-    border-radius: 100%;
-    font-size: large;
-    margin-top: 20px;
-}
-
 
 .info_evento{
     display: flex;
@@ -78,6 +73,26 @@ a{
 
 .info_evento > input{
     flex-grow: 1;
-    margin-right: 5px;
-    margin-top: 20px;
+    height: 30px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.info_evento > button{
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 35px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.botao_confirmar{
+    height: 7%;
+    width: 50%;
+    margin-top: 4%;
+    margin-bottom: 20px;
+    border: 0px solid black;
+    font-size: x-large;
+    border-radius: 10px;
 }
