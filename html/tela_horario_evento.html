@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Novo Evento</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="js/script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/lahiry.css">
+</head>
+<body>
+    <header>
+        <a href="tela_novo_evento.html">
+            <img class="voltar" src="../img/voltar.png">
+        </a>
+        <h1>Novo Evento</h1>
+    </header>
+
+    <main>
+        <div class="box_evento">
+            <p>Sugestão do App</p>
+            <div class="info_evento">
+                <input type="text" value="19 de Dezembro as 10h00">
+                <button class="botao_avancar" onclick="window.location.href='tela_local_evento.html'"><h2>></h2></button>
+            </div>
+        </div>
+
+        <div class="box_evento">
+            <p>Escolher outro horário</p>
+            <div class="info_evento">
+                <input type="text" placeholder="Digite aqui">
+                <button class="botao_avancar" onclick="window.location.href='tela_local_evento.html'"><img class="pin" src="../img/pin.png"></button>
+            </div>
+        </div>
+
+        <button class="botao_confirmar" onclick="window.location.href='tela_infos_evento.html'" class="confirmar">
+            <h2>Confirmar</h2>
+        </button>
+    </main>
+</body>

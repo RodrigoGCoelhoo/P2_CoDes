@@ -56,14 +56,17 @@ a{
 }
 
 .box_evento{
-    align-items: cente;
     width: 80%;
     min-height: 80px;
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
     margin-top: 1rem;
     font-weight: bolder;
     background-color: #6699FF;
     border-radius: 5px;
+}
+
+.box_evento > *{
+    margin-top: 15px;
 }
 
 .info_evento{
@@ -90,7 +93,7 @@ a{
 .botao_confirmar{
     height: 7%;
     width: 50%;
-    margin-top: 4%;
+    margin-top: 10%;
     margin-bottom: 20px;
     border: 0px solid black;
     font-size: x-large;
