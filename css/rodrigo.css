@@ -292,3 +292,39 @@ main{
     margin-top: 10px;
     padding-bottom: 10px;
 }
+
+.convidados{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    font-size: x-large;
+    margin-top: 10px;
+}
+
+.perfil{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-right: 10px;
+
+}
+
+.input_check{
+    position: absolute;
+    transform: scale(2);
+    right: 30px;
+}
+
+.sugestao_check{
+    margin-top: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.pesquisa{
+    margin: 10px 0;
+    width: 80%;
+    height: 30px;
+}
