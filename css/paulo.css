@@ -44,6 +44,11 @@ main{
 
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .box{
     display: flex;
     flex-direction: row;
@@ -121,16 +126,24 @@ main{
 .notification{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 2rem;
+    justify-content: space-between;
+    padding: 0.8rem;
+    width: 90%;
     background-color: #dfe0e2;
-    width: 80%;
-    margin: 0rem auto;
     border-radius: 1rem;
 }
 
 .titulo_notification{
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bolder;
+    
+}
+
+.logo_app_notification{
+    width: 10%;
+    margin: 5px;
 }
 
 .check_mark_circle{
@@ -203,3 +216,9 @@ main{
     margin: 10px;
 }
 
+.tela_iphone{
+    background-image: url('../img/lock_screen.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
