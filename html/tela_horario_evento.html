@@ -1,44 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <title>Data Evento</title>
+    <title>Data e Horário do Evento</title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="js/script.js"></script>
+    <script src="../js/tela_horario_evento.js"></script>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/lahiry.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
         <a href="tela_novo_evento.html">
             <img class="voltar" src="../img/voltar.png">
         </a>
-        <h1>Data do Evento</h1>
+        <h1>DATA E HORÁRIO DO EVENTO</h1>
     </header>
-
     <main>
         <div class="box_evento">
-            <p>Sugestão do App</p>
+            <p class="p_bolder">Sugestão do LPT</p>
             <div class="info_evento">
-                <input type="" value="19/12/2020 - 10h00" disabled>
+                <p>19/12/2020 - 10h00</p>
+                <input type="checkbox">
             </div>
         </div>
-
         <div class="box_evento">
-            <p>Escolher outra data</p>
+            <p class="p_bolder">Escolher outra data</p>
             <div class="info_evento">
                 <input type="datetime-local" placeholder="Digite aqui">
             </div>
         </div>
-
-        <button class="botao_confirmar" onclick="window.location.href='tela_novo_evento.html'" class="confirmar">
-            <h2>Confirmar</h2>
-        </button>
+        <button class="botao_confirmar" onclick="window.location.href='tela_novo_evento.html'" class="confirmar">Confirmar</button>
     </main>
 </body>

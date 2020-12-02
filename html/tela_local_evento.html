@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <title>Local Evento</title>
+    <title>Local do Evento</title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="js/script.js"></script>
+    <script src="../js/tela_local_evento.js"></script>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/lahiry.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
         <a href="tela_novo_evento.html">
             <img class="voltar" src="../img/voltar.png">
         </a>
-        <h1>Local do Evento</h1>
+        <h1>LOCAL DO EVENTO</h1>
     </header>
 
     <main>
         <div class="box_evento">
-            <p>Sugestão do App</p>
+            <p class="p_bolder">Sugestão da LPT</p>
             <div class="info_evento">
+                <p>Play Tennis - Morumbi</p>
                 <input type="checkbox">
-                <input type="text" value="Play Tennis - Morumbi" disabled>
             </div>
         </div>
 
         <div class="box_evento">
-            <p>Escolher outro local</p>
+            <p class="p_bolder">Escolher outro local</p>
             <div class="info_evento">
-                <input type="text" placeholder="Digite aqui">
-                <button class="botao_avancar" onclick=""><img src="../img/pin.png" alt="Pinpoint"></button>
+                <input type="search" placeholder="Digite aqui">
+                <img src="../img/search.png" alt="Search" class="botao_avancar">
             </div>
         </div>
 
         <button class="botao_confirmar" onclick="window.location.href='tela_novo_evento.html'" class="confirmar">
-            <h2>Confirmar</h2>
+            Confirmar
         </button>
     </main>
 </body>
