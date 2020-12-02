@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-    inputs = document.querySelectorAll('input')
-    input_check = inputs[0]
-    input_horario = inputs[1]
+    inputs = document.querySelectorAll('input');
+    input_check = inputs[0];
+    input_horario = inputs[1];
 
     botao = document.querySelector('.botao_confirmar');
 

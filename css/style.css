@@ -461,7 +461,7 @@ a{
 }
 
 .uhul{
-    font-size: xxx-large;
+    font-size: 200%;
     font-weight: bolder;
 }
 
@@ -629,7 +629,7 @@ a{
     font-weight: bolder;
     background-color: #6699FF;
     border-radius: 5px;
-    font-size: xxx-large;
+    font-size: 200%;
     text-align: center;
 }
 

@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     botao.addEventListener('click', function(event) {
         inputs = document.querySelectorAll('input');
-        input = inputs[7]
+        input = inputs[7];
         conteudo = input.value;
         if (conteudo != ''){
             li = document.createElement('li');
